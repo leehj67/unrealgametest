@@ -1237,3 +1237,50 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.22-14.18.18:576][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms
 [2023.06.22-14.18.18:579][826]AssetCheck: New page: 에셋 저장:  asd
 [2023.06.22-14.18.18:579][826]LogContentValidation: Display: /Script/Engine.Blueprint /Game/asd.asd 유효성 검사 중
+[2023.06.22-14.21.28:024][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.22-14.21.28:864][733]LogShaderCompilers: Display: ================================================
+[2023.06.22-14.21.28:864][733]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-14.21.28:864][733]LogShaderCompilers: Display: Total job queries 3,558, among them cache hits 20 (0.56%)
+[2023.06.22-14.21.28:864][733]LogShaderCompilers: Display: Tracking 3,531 distinct input hashes that result in 2,513 distinct outputs (71.17%)
+[2023.06.22-14.21.28:864][733]LogShaderCompilers: Display: RAM used: 58.46 MiB of 819.20 MiB budget. Usage: 7.14%
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Shaders Compiled: 3,531
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Jobs assigned 3,538, completed 3,531 (99.80%)
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Average time worker was idle: 4.23 s
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Time job spent in pending queue: average 103.26 s, longest 221.53 s
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Job execution time: average 5.79 s, max 15.03 s
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Job life time (pending + execution): average 109.25 s, max 224.75
+[2023.06.22-14.21.28:872][734]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 246.46 s
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Jobs were issued in 437 batches (only local compilation was used), average 8.10 jobs/batch
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Average processing rate: 14.33 jobs/sec
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Total thread time: 2,090.821 s
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Total thread preprocess time: 60.62 s
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Percentage time preprocessing: 2.90%
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Effective parallelization: 8.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 5.05 sec, max 8.60 sec, min 1.78 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.42 sec, max 5.31 sec, min 2.10 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 2.53 sec, max 2.53 sec, min 2.53 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 2.10 sec, max 2.10 sec, min 2.10 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.17% of total time (compiled  150 times, average 1.42 sec, max 2.28 sec, min 1.20 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.14% of total time (compiled   96 times, average 1.12 sec, max 1.63 sec, min 0.82 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.55% of total time (compiled  128 times, average 0.74 sec, max 1.12 sec, min 0.46 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.37% of total time (compiled  128 times, average 0.71 sec, max 0.97 sec, min 0.54 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.36% of total time (compiled   96 times, average 0.95 sec, max 1.35 sec, min 0.45 sec)
+[2023.06.22-14.21.28:873][734]LogShaderCompilers: Display: ================================================
+[2023.06.22-14.21.29:270][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.06.22-14.21.51:581][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.06.22-14.22.00:232][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.22-14.22.00:265][563]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM
+[2023.06.22-14.22.00:265][563]LogSavePackage: Moving '../../../../project/unrealgametest/test1/Saved/MG6FOV6QQX2CAZCGF7O9MMC8033C284D632BF8EF4272A116B5FDD2.tmp' to '../../../../project/unrealgametest/test1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset'
+[2023.06.22-14.22.00:267][563]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH
+[2023.06.22-14.22.00:267][563]LogSavePackage: Moving '../../../../project/unrealgametest/test1/Saved/XRLOR3HVYVHJA3N9PKGXZHB3B94ED948741B4013B4499AD7E25284.tmp' to '../../../../project/unrealgametest/test1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset'
+[2023.06.22-14.22.00:268][563]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0
+[2023.06.22-14.22.00:268][563]LogSavePackage: Moving '../../../../project/unrealgametest/test1/Saved/7EHFAZ5HVWXAWQ04QO5TH019FFDCD44956D5D5E2AE84BC10EB9F08.tmp' to '../../../../project/unrealgametest/test1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset'
+[2023.06.22-14.22.00:280][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 167 ms)
+[2023.06.22-14.22.00:300][563]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2023.06.22-14.22.00:300][563]LogContentValidation: Display: /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_12 유효성 검사 중
+[2023.06.22-14.22.00:300][563]LogContentValidation: Display: /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_5 유효성 검사 중
+[2023.06.22-14.22.00:300][563]LogContentValidation: Display: /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_34 유효성 검사 중
